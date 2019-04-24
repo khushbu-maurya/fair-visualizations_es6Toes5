@@ -74,8 +74,9 @@ Measures required: 1
 | Display colour    | displayColor          | An display colour                                 | null          |                       |
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
-###Place 2
+
 ## STACKED HORIZONTAL BAR CHART
+###Place 2
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
