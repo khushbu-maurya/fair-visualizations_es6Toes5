@@ -1,3 +1,15 @@
+##Installation
+Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
+
+#npm 
+``` 
+npm install flair-visualizations
+```
+
+#bower 
+```
+bower install flair-visualizations
+```
 
 ## CLUSTERED VERTICAL BAR CHART
 
