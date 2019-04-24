@@ -1,12 +1,12 @@
-##Installation
+## Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
 
-#npm 
+# npm 
 ``` 
 npm install flair-visualizations
 ```
 
-#bower 
+# bower 
 ```
 bower install flair-visualizations
 ```
