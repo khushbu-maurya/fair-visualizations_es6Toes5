@@ -29,7 +29,7 @@ Measures required: 1
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
-![alt text](https://www.screencast.com/t/jgzY4C0vzDt)
+![alt text](https://content.screencast.com/users/khushbum.wa/folders/Jing/media/5c953b30-f897-4a8c-b030-a20d913c695b/2019-04-24_1644.png)
 
 ## CLUSTERED HORIZONTAL BAR CHART
 
