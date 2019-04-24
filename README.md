@@ -76,7 +76,7 @@ Measures required: 1
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
 ## STACKED HORIZONTAL BAR CHART
-###Place 2
+### Place 2
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
