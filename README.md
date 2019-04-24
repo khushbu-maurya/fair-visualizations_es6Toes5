@@ -1,3 +1,5 @@
+# Documentation
+[here](#place-2)
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
 
@@ -72,7 +74,7 @@ Measures required: 1
 | Display colour    | displayColor          | An display colour                                 | null          |                       |
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
-
+###Place 2
 ## STACKED HORIZONTAL BAR CHART
 
 Dimensions allowed: 1, 
