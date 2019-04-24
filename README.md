@@ -2,7 +2,7 @@
 
 ## CLUSTERED VERTICAL BAR CHART
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Property Name  | Config Property Name | Description | Default Value | Possible Values
+| -------------- | -------------------- | ----------- | -------------- | -------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
