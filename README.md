@@ -2,9 +2,12 @@
 
 
 
-* [Installation](#Installation)
-              * [Getting Started](#Installation)
-                  * Sub-nested bullet etc
+* [Installation](#Installation)   
+
+              * [Getting Started](#Installation)    
+              
+                  * Sub-nested bullet etc  
+                  
           * [Charts](#Installation)
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
