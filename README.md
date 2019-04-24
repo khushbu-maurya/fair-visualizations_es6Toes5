@@ -4,13 +4,13 @@
 
 * [Installation](#Installation)      
 * [Getting Started](#Installation)                    
-* Charts   
-      * [Clustered Vertical Bar Chart](#CLUSTERED VERTICAL BAR CHART)
-      * [Clustered Horizontal Bar Chart](#CLUSTERED HORIZONTAL BAR CHART)
-      * [Stacked Vertical Bar Chart](#STACKED VERTICAL BAR CHART)
-      * [Stacked Horizontal Bar Chart](#STACKED HORIZONTAL BAR CHART)
-      * [Line Chart](#LINE CHART)
-      * [Combo Chart](#COMBO CHART)
+* Charts       
+     * [Clustered Vertical Bar Chart](#CLUSTERED VERTICAL BAR CHART)    
+     * [Clustered Horizontal Bar Chart](#CLUSTERED HORIZONTAL BAR CHART)    
+     * [Stacked Vertical Bar Chart](#STACKED VERTICAL BAR CHART)     
+     * [Stacked Horizontal Bar Chart](#STACKED HORIZONTAL BAR CHART)     
+     * [Line Chart](#LINE CHART)      
+     * [Combo Chart](#COMBO CHART)     
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
 
