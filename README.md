@@ -56,7 +56,7 @@ Measures required: 1
 
 ![alt text](https://content.screencast.com/users/khushbum.wa/folders/Jing/media/5c953b30-f897-4a8c-b030-a20d913c695b/2019-04-24_1644.png)
 
-## CLUSTERED HORIZONTAL BAR CHART
+## CLUSTERED_HORIZONTAL_BAR_CHART
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
@@ -86,7 +86,7 @@ Measures required: 1
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
-## STACKED HORIZONTAL BAR CHART
+## STACKED_HORIZONTAL_BAR_CHART
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
@@ -116,7 +116,7 @@ Measures required: 1
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
-## STACKED VERTICAL BAR CHART
+## STACKED_VERTICAL_BAR_CHART
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
@@ -146,7 +146,7 @@ Measures required: 1
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
-## LINE CHART
+## LINE_CHART
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
@@ -178,7 +178,7 @@ Measures required: 1
 | Line Chart Point type | pointType             | Type of points                                    | null          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
 | Line Type             | lineType              | Types of line charts                              | null          | Area/Line                                                              |
 
-## COMBO CHART
+## COMBO_CHART
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
