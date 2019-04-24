@@ -1,5 +1,11 @@
 # Documentation
-[here](#place-2)
+
+
+
+* [Installation](#Installation)
+              * [Getting Started](#Installation)
+                  * Sub-nested bullet etc
+          * [Charts](#Installation)
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
 
@@ -76,7 +82,6 @@ Measures required: 1
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
 
 ## STACKED HORIZONTAL BAR CHART
-### Place 2
 
 Dimensions allowed: 1, 
 Dimensions required: 1,
