@@ -1,4 +1,3 @@
-# fair-visualizations_es6Toes5
 
 ## CLUSTERED VERTICAL BAR CHART
 
@@ -29,6 +28,8 @@ Measures required: 1
 | Display colour    | displayColor          | An display colour                                 | null          |                       |
 | Border colour     | borderColor           | An border colour                                  | null          |                       |
 | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
+
+![alt text](https://www.screencast.com/t/jgzY4C0vzDt)
 
 ## CLUSTERED HORIZONTAL BAR CHART
 
