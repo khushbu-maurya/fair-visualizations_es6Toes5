@@ -2,6 +2,11 @@
 
 ## CLUSTERED VERTICAL BAR CHART
 
+Dimensions allowed: 1, 
+Dimensions required: 1,
+Measures allowed: 5, 
+Measures required: 1 
+
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
 | Show X Axis       | showXaxis             | Boolean that says if x axis should be shown       | TRUE          | True|False            |
