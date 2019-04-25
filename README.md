@@ -28,8 +28,8 @@ bower install flair-visualizations
 # Global_Config
 * ### Body Properties
       
-| Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
-        |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
+| Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values      |
+|-------------------|-----------------------|---------------------------------------------------|---------------|----------------------|
         
 # Charts    
 
