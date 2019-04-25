@@ -58,7 +58,12 @@ bower install flair-visualizations
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Display name      | displayName           | A Display name                                    | Displayname   |                       |
-        | Value on Points   | showValues            | Show value on points                              | false         | true/false            |
+        
+
+    * ####  Measures   
+    | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
+        |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
+    | Value on Points   | showValues            | Show value on points                              | false         | true/false            |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
         | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
         | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
@@ -67,7 +72,6 @@ bower install flair-visualizations
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
-
 ![alt text](https://content.screencast.com/users/khushbum.wa/folders/Jing/media/5c953b30-f897-4a8c-b030-a20d913c695b/2019-04-24_1644.png)
 
 ## CLUSTERED_HORIZONTAL_BAR_CHART
