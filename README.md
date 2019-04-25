@@ -12,7 +12,7 @@
      * [Stacked Horizontal Bar Chart](#STACKED_HORIZONTAL_BAR_CHART)     
      * [Line Chart](#LINE_CHART)      
      * [Combo Chart](#COMBO_CHART)       
-     * [Pie Chart](#{PIE_CHART)       
+     * [Pie Chart](#PIE_CHART)       
      * [Doughnut Chart](#DOUGHNUT_CHART)       
      * [Gauge Chart](#GAUGE_CHART)       
      * [Sactter Plot Chart](#SCATTER_PLOT_CHART)       
