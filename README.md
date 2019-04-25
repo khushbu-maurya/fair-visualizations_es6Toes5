@@ -86,7 +86,7 @@ bower install flair-visualizations
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
         
         
-* #### ![alt text](https://content.screencast.com/users/khushbum.wa/folders/Default/media/721dd469-c035-42b9-a25f-4f822e528651/ezgif.com-video-to-gif%20(1).gif)
+ ![CLUSTERED_VERTICAL_BAR_CHART](https://content.screencast.com/users/khushbum.wa/folders/Default/media/721dd469-c035-42b9-a25f-4f822e528651/ezgif.com-video-to-gif%20(1).gif)
 
 ## CLUSTERED_HORIZONTAL_BAR_CHART
 
