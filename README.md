@@ -26,10 +26,10 @@ bower install flair-visualizations
 
 ## CLUSTERED_VERTICAL_BAR_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -58,10 +58,10 @@ Measures required: 1
 
 ## CLUSTERED_HORIZONTAL_BAR_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -88,10 +88,10 @@ Measures required: 1
 
 ## STACKED_HORIZONTAL_BAR_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -118,10 +118,10 @@ Measures required: 1
 
 ## STACKED_VERTICAL_BAR_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -148,10 +148,10 @@ Measures required: 1
 
 ## LINE_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name         | Config Property Name  | Description                                       | Default Value | Possible Values                                                        |
 |-----------------------|-----------------------|---------------------------------------------------|---------------|------------------------------------------------------------------------|
@@ -180,10 +180,10 @@ Measures required: 1
 
 ## COMBO_CHART
 
-Dimensions allowed: 1, 
-Dimensions required: 1,
-Measures allowed: 5, 
-Measures required: 1 
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 5        |
 
 | Property Name         | Config Property Name  | Description                                       | Default Value | Possible Values                                                        |
 |-----------------------|-----------------------|---------------------------------------------------|---------------|------------------------------------------------------------------------|
