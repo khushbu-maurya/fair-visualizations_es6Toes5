@@ -74,7 +74,7 @@ bower install flair-visualizations
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
         
         
-![alt text](https://drive.google.com/open?id=1FfdNlZTcJzekKxrEA4qIIS35sFoEM5zW)
+![alt text](https://content.screencast.com/users/khushbum.wa/folders/Default/media/721dd469-c035-42b9-a25f-4f822e528651/ezgif.com-video-to-gif%20(1).gif)
 
 ## CLUSTERED_HORIZONTAL_BAR_CHART
 
