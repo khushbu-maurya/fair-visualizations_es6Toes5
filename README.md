@@ -11,7 +11,19 @@
      * [Stacked Vertical Bar Chart](#STACKED_VERTICAL_BAR_CHART)     
      * [Stacked Horizontal Bar Chart](#STACKED_HORIZONTAL_BAR_CHART)     
      * [Line Chart](#LINE_CHART)      
-     * [Combo Chart](#COMBO_CHART)     
+     * [Combo Chart](#COMBO_CHART)       
+     * [Pie Chart](#{PIE_CHART)       
+     * [Doughnut Chart](#DOUGHNUT_CHART)       
+     * [Gauge Chart](#GAUGE_CHART)       
+     * [Sactter Plot Chart](#SCATTER_PLOT_CHART)       
+     * [InfoGraphics Chart](#INFOGRAPHICS_CHART)       
+     * [KPI Chart](#KPI_CHART)       
+     * [Bullet Chart](#BULLET_CHART)      
+     * [BoxPlot Chart](#BOXPLOT_CHART)       
+     * [Sankey Chart](#COMBO_CHART)       
+     * [Table](#Table)       
+     * [PivotTable](#PIVOTTABLE) 
+     
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
 
@@ -238,6 +250,52 @@ bower install flair-visualizations
         | Line Chart Point type | pointType             | Type of points                                    | null          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
         | Line Type             | lineType              | Types of line charts                              | null          | Area/Line                                                              |
         | Combo chart type      | comboChartType        | line or bar                                       | null          | Bar/Line                                                               |
+
+## PIE_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 0        |
+| Measures   | 1        | 0        |
+
+* ### Configuration Properties    
+    * ####  Viz Properties
+        | Property Name  | Config Property Name | Description                                                    | Default Value | Possible Values        |
+        |----------------|----------------------|----------------------------------------------------------------|---------------|------------------------|
+        | Show value as  | valueAs              | show labels as option in piece lable                           | null          | Label/Percentage/Value |
+        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE          |                        |
+        | Value position | valuePosition        | Position of value outside or inside pie segment                | null          | Border/Outside         |
+        
+        
+## DOUGHNUT_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 0        |
+| Measures   | 1        | 0        |
+
+* ### Configuration Properties    
+    * ####  Viz Properties
+        | Property Name  | Config Property Name | Description                                                    | Default Value | Possible Values        |
+        |----------------|----------------------|----------------------------------------------------------------|---------------|------------------------|
+        | Show value as  | valueAs              | show labels as option in piece lable                           | null          | Label/Percentage/Value |
+        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE          |                        |
+        | Value position | valuePosition        | Position of value outside or inside pie segment                | null          | Border/Outside         |
+        
+     * ####  Dimensions
+        | Property Name | Config Property Name | Description                  | Default Value | Possible Values |
+        |---------------|----------------------|------------------------------|---------------|-----------------|
+        | Display name  | dimensionDisplayName | A Display name for Dimension | Displayname   |                 |
+        | Display name  | measureDisplayName   | A Display name for Measure   | Displayname   |                 |
+        | Font style    | fontStyle            | Style of fonts               | null          |                 |
+        | Font weight   | fontWeight           | Weight of fonts              | null          |                 |
+        | Text colour   | fontColor            | The text colour              | #617c8c       |                 |
+        | Font size     | fontSize             | Size of fonts                | 9             |                 |
+        
 
 ## GAUGE_CHART
 
