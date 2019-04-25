@@ -26,10 +26,16 @@ bower install flair-visualizations
 
 ## CLUSTERED_VERTICAL_BAR_CHART
 
+* ### Attributes       
+
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
+
+* ### Configuration Properties    
+
+    * ####  Dimensions      
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -61,7 +67,7 @@ bower install flair-visualizations
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -91,7 +97,7 @@ bower install flair-visualizations
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -121,7 +127,7 @@ bower install flair-visualizations
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
 
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
 |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
@@ -151,7 +157,7 @@ bower install flair-visualizations
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
 
 | Property Name         | Config Property Name  | Description                                       | Default Value | Possible Values                                                        |
 |-----------------------|-----------------------|---------------------------------------------------|---------------|------------------------------------------------------------------------|
@@ -183,7 +189,7 @@ bower install flair-visualizations
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 1        | 1        |
-| Measures   | 1        | 5        |
+| Measures   | 1        | 4        |
 
 | Property Name         | Config Property Name  | Description                                       | Default Value | Possible Values                                                        |
 |-----------------------|-----------------------|---------------------------------------------------|---------------|------------------------------------------------------------------------|
