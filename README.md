@@ -30,7 +30,16 @@ bower install flair-visualizations
       
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values      |
 |-------------------|-----------------------|---------------------------------------------------|---------------|----------------------|
-        
+| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True|False            |
+| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True|False            |
+| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                       |
+| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                       |
+| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True|False            |
+| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True|False            |
+| Show Legend       | showLegend           | Boolean that says if legend should be shown       | TRUE          | True|False            |
+| Legend position   | legendPosition       | Legend position with sides                        | null          | Top|bottom|left|right |
+| Show Grid         | showGrid             | Boolean to Show Grid or not                       | TRUE          | True|False            |
+| Stacked           | stacked              | Boolean that says if chart is stacked             | TRUE          | True|False            |        
 # Charts    
 
 ## CLUSTERED_VERTICAL_BAR_CHART
