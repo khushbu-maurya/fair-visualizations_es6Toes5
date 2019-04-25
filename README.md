@@ -27,7 +27,7 @@ bower install flair-visualizations
 
 # Global_Config
 * ### Body Properties
-    - These are common body properties for vizualizations:        
+      
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         
