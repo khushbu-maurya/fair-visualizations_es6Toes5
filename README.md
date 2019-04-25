@@ -48,7 +48,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -82,7 +82,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -114,7 +114,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -146,7 +146,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -178,7 +178,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -211,7 +211,7 @@ bower install flair-visualizations
 
 | Type       | Required | Optional |
 |------------|----------|----------|
-| Dimensions | 1        | 1        |
+| Dimensions | 1        | 0        |
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
@@ -238,3 +238,37 @@ bower install flair-visualizations
         | Line Chart Point type | pointType             | Type of points                                    | null          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
         | Line Type             | lineType              | Types of line charts                              | null          | Area/Line                                                              |
         | Combo chart type      | comboChartType        | line or bar                                       | null          | Bar/Line                                                               |
+
+## GAUGE_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 0        | 0        |
+| Measures   | 2        | 0        |
+
+* ### Configuration Properties    
+    * ####  Viz Properties
+        | Property Name | Config Property Name | Description    | Default Value | Possible Values    |
+        |---------------|----------------------|----------------|---------------|--------------------|
+        | Gauge Type    | gaugeType            | Type of gauges | null          | Half Circle/Radial |       
+        
+    * ####  Dimensions 
+        | Property Name         | Config Property Name | Description                                | Default Value | Possible Values |
+        |-----------------------|----------------------|--------------------------------------------|---------------|-----------------|
+        | Value on Points       | targetShowValues     | Show value on points for Target Measure    | FALSE         | True|False      |
+        | Display name          | targetDisplayName    | A Display name for Target Measure          | Displayname   |                 |
+        | Font style            | targetFontStyle      | Style of fonts for Target Measure          | null          |                 |
+        | Font weight           | targetFontWeight     | Weight of fonts for Target Measure         | null          |                 |
+        | Number format         | targetNumberFormat   | Possible number formats for Target Measure | null          | K,M,B,Actual    |
+        | Text colour           | targetTextColor      | The text colour for Target Measure         | #617c8c       |                 |
+        | Display colour        | targetDisplayColor   | An display colour for Target Measure       | null          |                 |
+        | Value on Points       | showValues           | Show value on points                       | FALSE         | True|False      |
+        | Display name          | displayName          | A Display name for Measure                 | Displayname   |                 |
+        | Font style            | fontStyle            | Style of fonts                             | null          |                 |
+        | Font weight           | fontWeight           | Weight of fonts                            | null          |                 |
+        | Number format         | numberFormat         | Possible number formats                    | null          | K,M,B,Actual    |
+        | Text colour           | textColor            | The text colour                            | #617c8c       |                 |
+        | Display colour        | displayColor         | An display colour                          | null          |                 |
+        | Enable Gradient Color | isGradient           | Enable Gradient Color for Source Measure   | FALSE         | True|False      |
