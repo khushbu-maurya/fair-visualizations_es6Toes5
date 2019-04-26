@@ -22,7 +22,10 @@
      * [BoxPlot Chart](#BOXPLOT_CHART)       
      * [Sankey Chart](#COMBO_CHART)       
      * [Table](#TABLE)       
-     * [PivotTable](#PIVOTTABLE) 
+     * [PivotTable](#PIVOTTABLE)    
+     * [Map](#MAP)    
+     * [TreeMap](#TREEMAP)    
+     * [HeatMap](#HEATMAP)  
      
 # Installation
 Flair-Visualizations can be installed via npm or bower. It is recommended to get Flair-Visualizations this way.
@@ -370,3 +373,136 @@ bower install flair-visualizations
 		| Text alignment         | textAlignmentForMeasure       | Alignment of text for Measure                      | Center                 | Center/Left/Right       |
 		| Icon position          | iconPositionForMeasure        | An icon position for Measure                       | Center                 | Center/Left/Right       |
 		| Number format          | numberFormatForMeasure        | Possible number formats for Measure                | Actual                 | K,M,B,Actual            |
+		
+		
+## PIVOTTABLE
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 4        |
+| Measures   | 1        | 9        |
+
+* ### Configuration Properties    
+    * ####  Dimensions		
+		| Property Name          | Config Property Name            | Description                               | Default Value          | Possible Values         |
+		|------------------------|---------------------------------|-------------------------------------------|------------------------|-------------------------|
+		| Display name           | displayNameForDimension         | A Display name for Dimension              | Displayname            |                         |
+		| Font style             | fontStyleForDimension           | Style of fonts for Dimension              | Normal                 | Normal/Italique/Oblique |
+		| Font weight            | fontWeightForDimension          | Weight of fonts for Dimension             | Normal                 | Normal/Bold/100-900     |
+		| Text colour            | textColorForDimension           | The text colour for Dimension             | #617c8c                |                         |
+		| Font size              | fontSizeForDimension            | Size of fonts for Dimension               | 9                      |                         |
+		| Cell colour            | cellColorForDimension           | Cell colour for table cells for Dimension | rgba(255, 255, 255, 1) |                         |
+		| Text colour expression | textColorExpressionForDimension | The text colour expression for Dimension  | null                   |                         |
+		| Text alignment         | textAlignmentForDimension       | Alignment of text for Dimension           | Center                 | Center/Left/Right       |
+		| Pivot                  | isPivoted                       | Pivot the dimension                       | FALSE                  | true/false              |    
+		
+    * ####  Measures
+		| Property Name          | Config Property Name          | Description                                        | Default Value          | Possible Values         |
+		|------------------------|-------------------------------|----------------------------------------------------|------------------------|-------------------------|
+		| Display name           | displayNameForMeasure         | A Display name for Measure                         | Displayname            |                         |
+		| Font style             | fontStyleForMeasure           | Style of fonts for Measure                         | Normal                 | Normal/Italique/Oblique |
+		| Font weight            | fontWeightForMeasure          | Weight of fonts for Measure                        | Normal                 | Normal/Bold/100-900     |
+		| Text colour            | textColorForMeasure           | The text colour for Measure                        | #617c8c                |                         |
+		| Font size              | fontSizeForMeasure            | Size of fonts for Measure                          | 9                      |                         |
+		| Cell colour            | cellColorForMeasure           | Cell colour for table cells for Measure            | rgba(255, 255, 255, 1) |                         |
+		| Text colour expression | textColorExpressionForMeasure | The text colour expression for Measure             | null                   |                         |
+		| Cell colour expression | cellColorExpressionForMeasure | Expression to customize cell colour of table cells | null                   |                         |
+		| Icon name              | iconNameForMeasure            | An icon name for Measure                           | null                   |                         |
+		| Icon Expression        | iconExpressionForMeasure      | An icon expression for Measure                     | null                   |                         |
+		| Text alignment         | textAlignmentForMeasure       | Alignment of text for Measure                      | Center                 | Center/Left/Right       |
+		| Icon position          | iconPositionForMeasure        | An icon position for Measure                       | Center                 | Center/Left/Right       |
+		| Number format          | numberFormatForMeasure        | Possible number formats for Measure                | Actual                 | K,M,B,Actual            |
+		| Icon Font weight       | iconFontWeight                | Weight of icon fonts                               | Normal                 | Normal/Bold/100-900     |
+		| Icon colour            | iconColor                     | An Icon colour                                     | null                   |                         |
+		
+## MAP
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 1        |
+
+* ### Configuration Properties    
+    * ####  Dimensions		
+		| Config Property Name | Description             | Default Value | Possible Values |
+		|----------------------|-------------------------|---------------|-----------------|
+		| numberFormat         | Possible number formats | Actual        | K,M,B,Actual    |
+		| displayColor         | An display colour       | null          |                 |
+    * ####  Measures
+		| Property Name | Config Property Name | Description      | Default Value | Possible Values |
+		|---------------|----------------------|------------------|---------------|-----------------|
+		| Border colour | borderColor          | An border colour | null          |                 |
+		
+## TREEMAP
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 0        |
+
+* ### Configuration Properties    
+    * ####  Dimensions		
+		| Property Name    | Config Property Name   | Description                   | Default Value | Possible Values         |
+		|------------------|------------------------|-------------------------------|---------------|-------------------------|
+		| Show Labels      | showLabelForDimension  | Boolean to show labels        | TRUE          | true/false              |
+		| Colour of labels | labelColorForDimension | Label colours                 | null          | null                    |
+		| Display colour   | displayColor           | An display colour             | null          | null                    |
+		| Font style       | fontStyleForDimension  | Style of fonts for Dimension  | Normal        | Normal/Italique/Oblique |
+		| Font weight      | fontWeightForDimension | Weight of fonts for Dimension | Normal        | Normal/Bold/100-900     |
+		| Font size        | fontSizeForDimension   | Size of fonts for Dimension   | 9             |                         |
+	
+    * ####  Measures		
+		| Property Name   | Config Property Name | Description                     | Default Value | Possible Values         |
+		|-----------------|----------------------|---------------------------------|---------------|-------------------------|
+		| Value on Points | showValues           | Show value on points            | FALSE         | true/false              |
+		| Font size       | fontSizeForMes       | Size of fonts                   | 9             |                         |
+		| Font style      | fontStyleForMes      | Style of fonts                  | Normal        | Normal/Italique/Oblique |
+		| Font weight     | fontWeightForMes     | Weight of fonts                 | Normal        | Normal/Bold/100-900     |
+		| Number format   | numberFormat         | Possible number formats         | Actual        | K,M,B,Actual            |
+		| Text colour     | valueTextColour      | The text colour                 | #617c8c       |                         |
+		| Color Pattern   | colorPattern         | Color pattern to vizualizations | null          | Single/Gradient/Unique  |
+		
+## HEATMAP
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 1        |
+| Measures   | 1        | 0        |
+
+* ### Configuration Properties    
+    * ####  Dimensions		
+		| Property Name    | Config Property Name   | Description                   | Default Value | Possible Values         |
+		|------------------|------------------------|-------------------------------|---------------|-------------------------|
+		| Colour of labels | dimLabelColor          | Label colours                 | null          | null                    |
+		| Display name     | displayName            | A Display name                | Displayname   |                         |
+		| Font style       | fontStyleForDimension  | Style of fonts for Dimension  | Normal        | Normal/Italique/Oblique |
+		| Font weight      | fontWeightForDimension | Weight of fonts for Dimension | Normal        | Normal/Bold/100-900     |
+		| Font size        | fontSizeForDimension   | Size of fonts for Dimension   | 9             |                         |
+    * ####  Measures
+		| Property Name    | Config Property Name   | Description                   | Default Value | Possible Values         |
+		|------------------|------------------------|-------------------------------|---------------|-------------------------|
+		| Value on Points  | showValues             | Show value on points          | FALSE         | True/False              |
+		| Number format    | numberFormat           | Possible number formats       | Actual        | K,M,B,Actual            |
+		| Show Icon        | showIcon               | Boolean to show icons         | TRUE          | true/false              |
+		| Color Coding     | colourCoding           | Conditional coloring          | null          |                         |
+		| Display name     | displayNameForMeasure  | A Display name for Dimension  | Displayname   |                         |
+		| Font style       | fontStyleForMeasure    | Style of fonts for Dimension  | Normal        | Normal/Italique/Oblique |
+		| Font weight      | fontWeightForMeasure   | Weight of fonts for Dimension | Normal        | Normal/Bold/100-900     |
+		| Text colour      | valueTextColour        | The text colour for Dimension | #617c8c       |                         |
+		| Font size        | fontSizeForMeasure     | Size of fonts for Dimension   | 9             |                         |
+		| Alignment        | valuePosition          | an alignment                  | Left          | Center/Left/Right       |
+		| Icon name        | iconNameForMeasure     | An icon name for Measure      | null          |                         |
+		| Icon position    | iconPositionForMeasure | An icon position for Measure  | Center        | Center/Left/Right       |
+		| Icon Font weight | iconFontWeight         | Weight of icon fonts          | Normal        | Normal/Bold/100-900     |
+		| Icon colour      | iconColor              | An Icon colour                | null          |                         |
+					
+		
+			
