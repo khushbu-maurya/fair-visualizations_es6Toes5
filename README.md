@@ -15,12 +15,12 @@
      * [Pie Chart](#PIE_CHART)       
      * [Doughnut Chart](#DOUGHNUT_CHART)       
      * [Gauge Chart](#GAUGE_CHART)       
-     * [Sactter Plot Chart](#SCATTER_PLOT_CHART)       
+     * [Scatter Plot Chart](#SCATTER_PLOT_CHART)       
      * [InfoGraphics Chart](#INFOGRAPHICS_CHART)       
      * [KPI Chart](#KPI_CHART)       
      * [Bullet Chart](#BULLET_CHART)      
      * [BoxPlot Chart](#BOXPLOT_CHART)       
-     * [Sankey Chart](#SANKEY_CHART)       
+     * [Sankey Chart](#COMBO_CHART)       
      * [Table](#TABLE)       
      * [PivotTable](#PIVOTTABLE)    
      * [Map](#MAP)    
@@ -581,3 +581,36 @@ bower install flair-visualizations
 		| Color Pattern  | colorPattern         | Color pattern to vizualizations | null          | Single/Gradient/Unique |
 		| Display colour | displayColor         | An display colour               | null          |                        |
 		| Border colour  | borderColor          | An border colour                | null          |                        |
+		
+## SCATTER_PLOT_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 0        |
+| Measures   | 2        | 1        |
+
+* ### Configuration Properties    
+
+    * ####  Dimensions      
+
+        | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
+        |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
+        | Display name      | displayName           | A Display name                                    | Displayname   |                       |
+        
+
+    * ####  Measures   
+        | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
+        |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
+        | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
+        | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          | Normal/Italique/Oblique                 |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |   Normal/Bold/100-900                    |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
+        | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
+        | Display colour    | displayColor          | An display colour                                 | null          |                       |
+        | Border colour     | borderColor           | An border colour                                  | null          |                       |
+        | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
+        
+        
