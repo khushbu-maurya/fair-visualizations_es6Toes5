@@ -21,7 +21,7 @@
      * [Bullet Chart](#BULLET_CHART)      
      * [BoxPlot Chart](#BOXPLOT_CHART)       
      * [Sankey Chart](#COMBO_CHART)       
-     * [Table](#Table)       
+     * [Table](#TABLE)       
      * [PivotTable](#PIVOTTABLE) 
      
 # Installation
@@ -317,8 +317,8 @@ bower install flair-visualizations
         |-----------------------|----------------------|--------------------------------------------|---------------|-----------------|
         | Value on Points       | targetShowValues     | Show value on points for Target Measure    | FALSE         | True|False      |
         | Display name          | targetDisplayName    | A Display name for Target Measure          | Displayname   |                 |
-        | Font style            | targetFontStyle      | Style of fonts for Target Measure          | Normal          |                 |
-        | Font weight           | targetFontWeight     | Weight of fonts for Target Measure         | Normal          |                 |
+        | Font style            | targetFontStyle      | Style of fonts for Target Measure          | Normal          | Normal/Italique/Oblique                 |
+        | Font weight           | targetFontWeight     | Weight of fonts for Target Measure         | Normal          | Normal/Bold/100-900                |
         | Number format         | targetNumberFormat   | Possible number formats for Target Measure | Actual          | K,M,B,Actual    |
         | Text colour           | targetTextColor      | The text colour for Target Measure         | #617c8c       |                 |
         | Display colour        | targetDisplayColor   | An display colour for Target Measure       | null          |                 |
@@ -330,3 +330,43 @@ bower install flair-visualizations
         | Text colour           | textColor            | The text colour                            | #617c8c       |                 |
         | Display colour        | displayColor         | An display colour                          | null          |                 |
         | Enable Gradient Color | isGradient           | Enable Gradient Color for Source Measure   | FALSE         | True|False      |
+
+
+## TABLE
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 9        |
+| Measures   | 1        | 9        |
+
+* ### Configuration Properties    
+    * ####  Dimensions
+		| Property Name          | Config Property Name            | Description                               | Default Value          | Possible Values         |
+	    |------------------------|---------------------------------|-------------------------------------------|------------------------|-------------------------|
+		| Display name           | displayNameForDimension         | A Display name for Dimension              | Displayname            |                         |
+		| Font style             | fontStyleForDimension           | Style of fonts for Dimension              | Normal                 | Normal/Italique/Oblique |
+		| Font weight            | fontWeightForDimension          | Weight of fonts for Dimension             | Normal                 | Normal/Bold/100-900     |
+		| Text colour            | textColorForDimension           | The text colour for Dimension             | #617c8c                |                         |
+		| Font size              | fontSizeForDimension            | Size of fonts for Dimension               | 9                      |                         |
+		| Cell colour            | cellColorForDimension           | Cell colour for table cells for Dimension | rgba(255, 255, 255, 1) |                         |
+		| Text colour expression | textColorExpressionForDimension | The text colour expression for Dimension  | null                   |                         |
+		| Text alignment         | textAlignmentForDimension       | Alignment of text for Dimension           | Center                 | Center/Left/Right       |
+	
+	* ####  Measures	
+		| Property Name          | Config Property Name          | Description                                        | Default Value          | Possible Values         |
+		|------------------------|-------------------------------|----------------------------------------------------|------------------------|-------------------------|
+		| Display name           | displayNameForMeasure         | A Display name for Measure                         | Displayname            |                         |
+		| Font style             | fontStyleForMeasure           | Style of fonts for Measure                         | Normal                 | Normal/Italique/Oblique |
+		| Font weight            | fontWeightForMeasure          | Weight of fonts for Measure                        | Normal                 | Normal/Bold/100-900     |
+		| Text colour            | textColorForMeasure           | The text colour for Measure                        | #617c8c                |                         |
+		| Font size              | fontSizeForMeasure            | Size of fonts for Measure                          | 9                      |                         |
+		| Cell colour            | cellColorForMeasure           | Cell colour for table cells for Measure            | rgba(255, 255, 255, 1) |                         |
+		| Text colour expression | textColorExpressionForMeasure | The text colour expression for Measure             | null                   |                         |
+		| Cell colour expression | cellColorExpressionForMeasure | Expression to customize cell colour of table cells | null                   |                         |
+		| Icon name              | iconNameForMeasure            | An icon name for Measure                           | null                   |                         |
+		| Icon Expression        | iconExpressionForMeasure      | An icon expression for Measure                     | null                   |                         |
+		| Text alignment         | textAlignmentForMeasure       | Alignment of text for Measure                      | Center                 | Center/Left/Right       |
+		| Icon position          | iconPositionForMeasure        | An icon position for Measure                       | Center                 | Center/Left/Right       |
+		| Number format          | numberFormatForMeasure        | Possible number formats for Measure                | Actual                 | K,M,B,Actual            |
