@@ -20,7 +20,7 @@
      * [KPI Chart](#KPI_CHART)       
      * [Bullet Chart](#BULLET_CHART)      
      * [BoxPlot Chart](#BOXPLOT_CHART)       
-     * [Sankey Chart](#COMBO_CHART)       
+     * [Sankey Chart](#SANKEY_CHART)       
      * [Table](#TABLE)       
      * [PivotTable](#PIVOTTABLE)    
      * [Map](#MAP)    
