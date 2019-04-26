@@ -49,7 +49,7 @@ bower install flair-visualizations
 | Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True|False            |
 | Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True|False            |
 | Show Legend       | showLegend           | Boolean that says if legend should be shown       | TRUE          | True|False            |
-| Legend position   | legendPosition       | Legend position with sides                        | null          | Top|bottom|left|right |
+| Legend position   | legendPosition       | Legend position with sides                        | Top          | Top|bottom|left|right |
 | Show Grid         | showGrid             | Boolean to Show Grid or not                       | TRUE          | True|False            |
 | Stacked           | stacked              | Boolean that says if chart is stacked             | TRUE          | True|False            |        
 # Charts    
@@ -77,9 +77,9 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          | Normal/Italique/Oblique                 |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |   Normal/Bold/100-900                    |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
@@ -111,9 +111,9 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          |    Normal/Italique/Oblique                   |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |       Normal/Bold/100-900                |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
@@ -143,9 +143,9 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          |     Normal/Italique/Oblique                 |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          | Normal/Bold/100-900                     |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
@@ -175,9 +175,9 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          | Normal/Italique/Oblique                     |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |   Normal/Bold/100-900                   |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
@@ -207,15 +207,15 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          |  Normal/Italique/Oblique                     |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |   Normal/Bold/100-900                    |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
-        | Line Chart Point type | pointType             | Type of points                                    | null          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
-        | Line Type             | lineType              | Types of line charts                              | null          | Area/Line                                                              |
+        | Line Chart Point type | pointType             | Type of points                                    | Circle          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
+        | Line Type             | lineType              | Types of line charts                              | Line          | Area/Line                                                              |
 
 ## COMBO_CHART
 
@@ -240,16 +240,16 @@ bower install flair-visualizations
         |-------------------|-----------------------|---------------------------------------------------|---------------|-----------------------|
         | Value on Points   | showValues            | Show value on points                              | false         | true/false             |
         | Display name      | displayNameForMeasure | A Display name for Measure                        | Displayname   |                       |
-        | Font style        | fontStyle             | Style of fonts                                    | null          |                       |
-        | Font weight       | fontWeight            | Weight of fonts                                   | null          |                       |
-        | Number format     | numberFormat          | Possible number formats                           | null          | K,M,B,Actual           |
+        | Font style        | fontStyle             | Style of fonts                                    | Normal          | Normal/Italique/Oblique  |
+        | Font weight       | fontWeight            | Weight of fonts                                   | Normal          |    Normal/Bold/100-900                   |
+        | Number format     | numberFormat          | Possible number formats                           | Actual          | K,M,B,Actual           |
         | Text colour       | textColor             | The text colour                                   | #617c8c       |                       |
         | Display colour    | displayColor          | An display colour                                 | null          |                       |
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
-        | Line Chart Point type | pointType             | Type of points                                    | null          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
-        | Line Type             | lineType              | Types of line charts                              | null          | Area/Line                                                              |
-        | Combo chart type      | comboChartType        | line or bar                                       | null          | Bar/Line                                                               |
+        | Line Chart Point type | pointType             | Type of points                                    | Circle          | Circle,Cross,CrossRot,Dash,Line,Rect,RectRounded,RectRot,Star,Triangle |
+        | Line Type             | lineType              | Types of line charts                              | Line          | Area/Line                                                              |
+        | Combo chart type      | comboChartType        | line or bar                                       | Bar          | Bar/Line                                                               |
 
 ## PIE_CHART
 
@@ -264,9 +264,9 @@ bower install flair-visualizations
     * ####  Viz Properties
         | Property Name  | Config Property Name | Description                                                    | Default Value | Possible Values        |
         |----------------|----------------------|----------------------------------------------------------------|---------------|------------------------|
-        | Show value as  | valueAs              | show labels as option in piece lable                           | null          | Label/Percentage/Value |
-        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE          |                        |
-        | Value position | valuePosition        | Position of value outside or inside pie segment                | null          | Border/Outside         |
+        | Show value as  | valueAs              | show labels as option in piece lable                           | Label          | Label/Percentage/Value |
+        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE           | true/false             |
+        | Value position | valuePosition        | Position of value outside or inside pie segment                | Border          | Border/Outside         |
         
         
 ## DOUGHNUT_CHART
@@ -282,17 +282,17 @@ bower install flair-visualizations
     * ####  Viz Properties
         | Property Name  | Config Property Name | Description                                                    | Default Value | Possible Values        |
         |----------------|----------------------|----------------------------------------------------------------|---------------|------------------------|
-        | Show value as  | valueAs              | show labels as option in piece lable                           | null          | Label/Percentage/Value |
-        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE          |                        |
-        | Value position | valuePosition        | Position of value outside or inside pie segment                | null          | Border/Outside         |
+        | Show value as  | valueAs              | show labels as option in piece lable                           | Label          | Label/Percentage/Value |
+        | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE           | true/false             |
+        | Value position | valuePosition        | Position of value outside or inside pie segment                | Border          | Border/Outside         |
         
      * ####  Dimensions
         | Property Name | Config Property Name | Description                  | Default Value | Possible Values |
         |---------------|----------------------|------------------------------|---------------|-----------------|
         | Display name  | dimensionDisplayName | A Display name for Dimension | Displayname   |                 |
         | Display name  | measureDisplayName   | A Display name for Measure   | Displayname   |                 |
-        | Font style    | fontStyle            | Style of fonts               | null          |                 |
-        | Font weight   | fontWeight           | Weight of fonts              | null          |                 |
+        | Font style    | fontStyle            | Style of fonts               | Normal          |   Normal/Italique/Oblique              |
+        | Font weight   | fontWeight           | Weight of fonts              | Normal          |    Normal/Bold/100-900             |
         | Text colour   | fontColor            | The text colour              | #617c8c       |                 |
         | Font size     | fontSize             | Size of fonts                | 9             |                 |
         
@@ -310,23 +310,23 @@ bower install flair-visualizations
     * ####  Viz Properties
         | Property Name | Config Property Name | Description    | Default Value | Possible Values    |
         |---------------|----------------------|----------------|---------------|--------------------|
-        | Gauge Type    | gaugeType            | Type of gauges | null          | Half Circle/Radial |       
+        | Gauge Type    | gaugeType            | Type of gauges | Half Circle          | Half Circle/Radial |       
         
     * ####  Dimensions 
         | Property Name         | Config Property Name | Description                                | Default Value | Possible Values |
         |-----------------------|----------------------|--------------------------------------------|---------------|-----------------|
         | Value on Points       | targetShowValues     | Show value on points for Target Measure    | FALSE         | True|False      |
         | Display name          | targetDisplayName    | A Display name for Target Measure          | Displayname   |                 |
-        | Font style            | targetFontStyle      | Style of fonts for Target Measure          | null          |                 |
-        | Font weight           | targetFontWeight     | Weight of fonts for Target Measure         | null          |                 |
-        | Number format         | targetNumberFormat   | Possible number formats for Target Measure | null          | K,M,B,Actual    |
+        | Font style            | targetFontStyle      | Style of fonts for Target Measure          | Normal          |                 |
+        | Font weight           | targetFontWeight     | Weight of fonts for Target Measure         | Normal          |                 |
+        | Number format         | targetNumberFormat   | Possible number formats for Target Measure | Actual          | K,M,B,Actual    |
         | Text colour           | targetTextColor      | The text colour for Target Measure         | #617c8c       |                 |
         | Display colour        | targetDisplayColor   | An display colour for Target Measure       | null          |                 |
         | Value on Points       | showValues           | Show value on points                       | FALSE         | True|False      |
         | Display name          | displayName          | A Display name for Measure                 | Displayname   |                 |
-        | Font style            | fontStyle            | Style of fonts                             | null          |                 |
-        | Font weight           | fontWeight           | Weight of fonts                            | null          |                 |
-        | Number format         | numberFormat         | Possible number formats                    | null          | K,M,B,Actual    |
+        | Font style            | fontStyle            | Style of fonts                             | Normal          | Normal/Italique/Oblique  |
+        | Font weight           | fontWeight           | Weight of fonts                            | Normal          |  Normal/Bold/100-900               |
+        | Number format         | numberFormat         | Possible number formats                    | Actual          | K,M,B,Actual    |
         | Text colour           | textColor            | The text colour                            | #617c8c       |                 |
         | Display colour        | displayColor         | An display colour                          | null          |                 |
         | Enable Gradient Color | isGradient           | Enable Gradient Color for Source Measure   | FALSE         | True|False      |
