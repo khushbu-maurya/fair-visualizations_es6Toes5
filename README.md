@@ -504,5 +504,80 @@ bower install flair-visualizations
 		| Icon Font weight | iconFontWeight         | Weight of icon fonts          | Normal        | Normal/Bold/100-900     |
 		| Icon colour      | iconColor              | An Icon colour                | null          |                         |
 					
-		
-			
+## BOXPLOT_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 0        |
+| Measures   | 5        | 0        |
+
+* ### Configuration Properties    
+    * ####  Dimensions		
+		| Property Name    | Config Property Name | Description             | Default Value | Possible Values |
+		|------------------|----------------------|-------------------------|---------------|-----------------|
+		| Number format    | numberFormat         | Possible number formats | Actual        | K,M,B,Actual    |
+		| Show Labels      | showLabel            | Boolean to show labels  | TRUE          | true/false      |
+		| Colour of labels | labelColor           | Label colours           | null          | null            |
+    * ####  Measures
+		| Property Name    | Config Property Name | Description             | Default Value | Possible Values |
+		|------------------|----------------------|-------------------------|---------------|-----------------|
+		| Display colour   | displayColor         | An display colour | null        |     |
+
+## BOXPLOT_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 1        | 0        |
+| Measures   | 2        | 0        |
+
+* ### Configuration Properties    
+    * ####  Chart Properties		
+		| Property Name        | Config Property Name | Description                 | Default Value | Possible Values     |
+		|----------------------|----------------------|-----------------------------|---------------|---------------------|
+		| Orientation          | orientation          | Orientation of Bullet Chart | Horizontal    | Horizontal/Vertical |
+		| Segments             | segments             | No of Segments              | 1             | 1 to 5              |
+		| Segment Color Coding | segmentInfo          | Segment Color Coding        | null          |                     |
+    * ####  Dimensions		
+		| Property Name   | Config Property Name | Description          | Default Value | Possible Values         |
+		|-----------------|----------------------|----------------------|---------------|-------------------------|
+		| Value on Points | showValues           | Show value on points | FALSE         | true/false              |
+		| Font size       | fontSizeForMes       | Size of fonts        | 9             |                         |
+		| Font style      | fontStyleForMes      | Style of fonts       | Normal        | Normal/Italique/Oblique |
+		| Font weight     | fontWeightForMes     | Weight of fonts      | Normal        | Normal/Bold/100-900     |
+    * ####  Measures
+		| Property Name  | Config Property Name | Description             | Default Value | Possible Values |
+		|----------------|----------------------|-------------------------|---------------|-----------------|
+		| Target colour  | targetColor          | Target colour           | #676a6c       | null            |
+		| Display colour | displayColor         | An display colour       | null          |                 |
+		| Number format  | measureNumberFormat  | Possible number formats | Actual        | K,M,B,Actual    |
+		| Number format  | targetNumberFormat   | Possible number formats | Actual        | K,M,B,Actual    |
+									
+## SANKEY_CHART
+
+* ### Attributes       
+
+| Type       | Required | Optional |
+|------------|----------|----------|
+| Dimensions | 2        | 3        |
+| Measures   | 1        | 0        |
+
+* ### Configuration Properties    
+    * ####  Dimensions
+		| Property Name   | Config Property Name | Description                        | Default Value | Possible Values         |
+		|-----------------|----------------------|------------------------------------|---------------|-------------------------|
+		| Font style      | fontStyle            | Style of fonts for Dimension       | Normal        | Normal/Italique/Oblique |
+		| Font weight     | fontWeight           | Weight of fonts for Dimension      | Normal        | Normal/Bold/100-900     |
+		| Font size       | fontSize             | Size of fonts for Dimension        | 9             |                         |
+		| Text colour     | textColor            | The text colour for Target Measure | #617c8c       |                         |
+		| Value on Points | showValues           | Show value on points               | FALSE         | True/False              |
+	* ####  Measures
+		| Property Name  | Config Property Name | Description                     | Default Value | Possible Values        |
+		|----------------|----------------------|---------------------------------|---------------|------------------------|
+		| Number format  | numberFormat         | Possible number formats         | Actual        | K,M,B,Actual           |
+		| Color Pattern  | colorPattern         | Color pattern to vizualizations | null          | Single/Gradient/Unique |
+		| Display colour | displayColor         | An display colour               | null          |                        |
+		| Border colour  | borderColor          | An border colour                | null          |                        |
