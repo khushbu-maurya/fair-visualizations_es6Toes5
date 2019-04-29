@@ -133,7 +133,7 @@ bower install flair-visualizations
         | Border colour     | borderColor           | An border colour                                  | null          |                       |
         | Font size         | fontSize              | Size of fonts                                     | 9             |                       |
         
-
+![CLUSTERED_HORIZONTAL_BAR_CHART](https://content.screencast.com/users/khushbum.wa/folders/Default/media/3f1e327f-c78b-40f4-b628-955f55a94289/Clustered%20Horizontal%20Bar%20Chart.gif)
 ## STACKED_HORIZONTAL_BAR_CHART
 
 * ### Attributes       
@@ -313,7 +313,9 @@ bower install flair-visualizations
         | Show value as  | valueAs              | show labels as option in piece lable                           | Label          | Label/Percentage/Value |
         | Value as Arc   | valueAsArc           | Boolean that says value on the segment should be in arc or not | TRUE           | true/false             |
         | Value position | valuePosition        | Position of value outside or inside pie segment                | Border          | Border/Outside         |
-        
+  
+![PIE_CHART](https://content.screencast.com/users/khushbum.wa/folders/Default/media/a275e324-0e31-434a-abfa-8f764d4f5b5f/pie.gif)
+ 
         
 ## DOUGHNUT_CHART
 
@@ -341,7 +343,9 @@ bower install flair-visualizations
         | Font weight   | fontWeight           | Weight of fonts              | Normal          |    Normal/Bold/100-900             |
         | Text colour   | fontColor            | The text colour              | #617c8c       |                 |
         | Font size     | fontSize             | Size of fonts                | 9             |                 |
-        
+   
+![DOUGHNUT_CHART](https://content.screencast.com/users/khushbum.wa/folders/Default/media/a727e3c5-d70b-4fd1-b1cd-be3460a139f1/Doughnutf.gif)
+ 
 
 ## GAUGE_CHART
 
