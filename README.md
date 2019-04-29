@@ -45,12 +45,6 @@ bower install flair-visualizations
       
 | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values      |
 |-------------------|-----------------------|---------------------------------------------------|---------------|----------------------|
-| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True|False            |
-| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True|False            |
-| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                       |
-| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                       |
-| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True|False            |
-| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True|False            |
 | Show Legend       | showLegend           | Boolean that says if legend should be shown       | TRUE          | True|False            |
 | Legend position   | legendPosition       | Legend position with sides                        | Top          | Top|bottom|left|right |
 | Show Grid         | showGrid             | Boolean to Show Grid or not                       | TRUE          | True|False            |
@@ -68,6 +62,15 @@ bower install flair-visualizations
 
 * ### Configuration Properties    
 
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -101,7 +104,15 @@ bower install flair-visualizations
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -133,7 +144,15 @@ bower install flair-visualizations
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -165,7 +184,15 @@ bower install flair-visualizations
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -197,7 +224,15 @@ bower install flair-visualizations
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -230,7 +265,15 @@ bower install flair-visualizations
 | Measures   | 1        | 4        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
@@ -592,7 +635,15 @@ bower install flair-visualizations
 | Measures   | 2        | 1        |
 
 * ### Configuration Properties    
-
+    * ####  Chart Properties
+		| Property Name     | Config Property Name | Description                                       | Default Value | Possible Values |
+		|-------------------|----------------------|---------------------------------------------------|---------------|-----------------|
+		| Show X Axis       | showXaxis            | Boolean that says if x axis should be shown       | TRUE          | True/False      |
+		| Show Y Axis       | showYaxis            | Boolean that says if y axis should be shown       | TRUE          | True/False      |
+		| X Axis Colour     | xAxisColor           | Colour of X axis                                  | #676a6c       |                 |
+		| Y Axis Colour     | yAxisColor           | Colour of Y axis                                  | #676a6c       |                 |
+		| Show X Axis Label | showXaxisLabel       | Boolean that says if x axis label should be shown | TRUE          | True/False      |
+		| Show Y Axis Label | showYaxisLabel       | Boolean that says if y axis label should be shown | TRUE          | True/False      |
     * ####  Dimensions      
 
         | Property Name     | Config Property Name  | Description                                       | Default Value | Possible Values       |
