@@ -679,4 +679,4 @@ bower install flair-visualizations
 	| Background Colour      | kpiBackgroundColor   | Colour of Background        | #FFFFFF       |                         |
 	| Text colour expression | kpiColorExpression   | The text colour expression  | null          |                         |
 		
-		
+	                                                            
