@@ -652,9 +652,9 @@ bower install flair-visualizations
 
 * ### Configuration Properties    
     * ####  Chart Properties
-    	| Property Name        | Config Property Name | Description                 | Default Value | Possible Values       |
-	|----------------------|----------------------|-----------------------------|---------------|-----------------------|
-	| Info graphic Type    | chartType            | Types of Info graphic charts | Bar    	    | Bar/Pie/Discrete/Line |
+    	| Property Name        | Config Property Name | Description                  | Default Value | Possible Values       |
+	|----------------------|----------------------|------------------------------|---------------|-----------------------|
+	| Info graphic Type    | chartType            | Types of Info graphic charts | Bar           | Bar/Pie/Discrete/Line |
 		
     * ####  Dimensions
     	| Property Name  | Config Property Name | Description       | Default Value | Possible Values |
