@@ -616,15 +616,15 @@ bower install flair-visualizations
         
 ## KPI_CHART
 
-* ### Attributes       
+* ### Attributes        
 
 | Type       | Required | Optional |
 |------------|----------|----------|
 | Dimensions | 0        | 0        |
 | Measures   | 1        | 1        |
 
-* ### Configuration Properties    
-    * ####  Dimensions
+* ### Configuration Properties      
+    * ####  Dimensions      
     	| Property Name          | Config Property Name | Description                 | Default Value | Possible Values         |
 	|------------------------|----------------------|-----------------------------|---------------|-------------------------|
 	| Number format          | kpiNumberFormat      | Possible number formats     | Actual        | K,M,B,Actual            |
@@ -650,19 +650,19 @@ bower install flair-visualizations
 | Dimensions | 1        | 0        |
 | Measures   | 1        | 1        |
 
-* ### Configuration Properties    
-    * ####  Chart Properties
+* ### Configuration Properties      
+    * ####  Chart Properties    
     	| Property Name        | Config Property Name | Description                  | Default Value | Possible Values       |
 	|----------------------|----------------------|------------------------------|---------------|-----------------------|
 	| Info graphic Type    | chartType            | Types of Info graphic charts | Bar           | Bar/Pie/Discrete/Line |
 		
-    * ####  Dimensions
+    * ####  Dimensions    
     	| Property Name  | Config Property Name | Description       | Default Value | Possible Values |
 	|----------------|----------------------|-------------------|---------------|-----------------|
 	| Border colour  | chartBorderColor     | An border colour  | null          |                 |
 	| Display colour | chartDisplayColor    | An display colour | null          |                 |
     	
-    * ####  Measures
+    * ####  Measures      
     	| Property Name          | Config Property Name | Description                 | Default Value | Possible Values         |
 	|------------------------|----------------------|-----------------------------|---------------|-------------------------|
 	| Number format          | kpiNumberFormat      | Possible number formats     | Actual        | K,M,B,Actual            |
