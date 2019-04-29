@@ -624,22 +624,22 @@ bower install flair-visualizations
 | Measures   | 1        | 1        |
 
 * ### Configuration Properties      
-    * ####  Dimensions      
-    	| Property Name          | Config Property Name | Description                 | Default Value | Possible Values         |
-	|------------------------|----------------------|-----------------------------|---------------|-------------------------|
-	| Number format          | kpiNumberFormat      | Possible number formats     | Actual        | K,M,B,Actual            |
-	| Display name           | kpiDisplayName       | A Display name for Measure  | Displayname   |                         |
-	| Font style             | kpiFontStyle         | Style of fonts for Measure  | Normal        | Normal/Italique/Oblique |
-	| Font weight            | kpiFontWeight        | Weight of fonts for Measure | Normal        | Normal/Bold/100-900     |
-	| Text colour            | kpiColor             | The text colour for Measure | #617c8c       |                         |
-	| Font size              | kpiFontSize          | Size of fonts for Measure   | 9             |                         |
-	| Text alignment         | kpiAlignment         | Alignment of text           | Left          | Center/Left/Right       |
-	| Icon name              | kpiIcon              | An icon name for Measure    | null          |                         |
-	| Icon Expression        | kpiIconExpression    | An icon expression          | null          |                         |
-	| Icon Font weight       | kpiIconFontWeight    | Weight of icon fonts        | Normal        | Normal/Bold/100-900     |
-	| Icon colour            | kpiIconColor         | An Icon colour              | null          |                         |
-	| Background Colour      | kpiBackgroundColor   | Colour of Background        | #FFFFFF       |                         |
-	| Text colour expression | kpiColorExpression   | The text colour expression  | null          |                         |
+    * ####  Dimensions           
+| Property Name          | Config Property Name | Description                 | Default Value | Possible Values         |
+|------------------------|----------------------|-----------------------------|---------------|-------------------------|
+| Number format          | kpiNumberFormat      | Possible number formats     | Actual        | K,M,B,Actual            |
+| Display name           | kpiDisplayName       | A Display name for Measure  | Displayname   |                         |
+| Font style             | kpiFontStyle         | Style of fonts for Measure  | Normal        | Normal/Italique/Oblique |
+| Font weight            | kpiFontWeight        | Weight of fonts for Measure | Normal        | Normal/Bold/100-900     |
+| Text colour            | kpiColor             | The text colour for Measure | #617c8c       |                         |
+| Font size              | kpiFontSize          | Size of fonts for Measure   | 9             |                         |
+| Text alignment         | kpiAlignment         | Alignment of text           | Left          | Center/Left/Right       |
+| Icon name              | kpiIcon              | An icon name for Measure    | null          |                         |
+| Icon Expression        | kpiIconExpression    | An icon expression          | null          |                         |
+| Icon Font weight       | kpiIconFontWeight    | Weight of icon fonts        | Normal        | Normal/Bold/100-900     |
+| Icon colour            | kpiIconColor         | An Icon colour              | null          |                         |
+| Background Colour      | kpiBackgroundColor   | Colour of Background        | #FFFFFF       |                         |
+| Text colour expression | kpiColorExpression   | The text colour expression  | null          |                         |
 	
 
 		
