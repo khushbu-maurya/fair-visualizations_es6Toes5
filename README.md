@@ -419,8 +419,9 @@ bower install flair-visualizations
 		| Icon Expression        | iconExpressionForMeasure      | An icon expression for Measure                     | null                   |                         |
 		| Text alignment         | textAlignmentForMeasure       | Alignment of text for Measure                      | Center                 | Center/Left/Right       |
 		| Icon position          | iconPositionForMeasure        | An icon position for Measure                       | Center                 | Center/Left/Right       |
-		| Number format          | numberFormatForMeasure        | Possible number formats for Measure                | Actual                 | K,M,B,Actual            |
+		| Number format          | numberFormatForMeasure        | Possible number formats for Measure                | Actual                 | K,M,B,Actual            |       
 		
+ ![TABLE_CHART](https://content.screencast.com/users/khushbum.wa/folders/Default/media/35b13311-4c64-47be-b821-0db2e40ca1d9/ezgif.com-video-to-gif%20(2).gif)		
 		
 ## PIVOTTABLE
 
